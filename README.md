@@ -1,9 +1,7 @@
 # Login
-El usuario y la contraseña se valida contra https://jsonplaceholder.typicode.com/users
+El usuario y la contraseña se validan contra https://jsonplaceholder.typicode.com/users
 
 Donde el usuario(email) es el campo "email" de la API y la contraseña es el campo "city".
-
-**Ejemplo:**
 
 <code>{
     "id": 1,
