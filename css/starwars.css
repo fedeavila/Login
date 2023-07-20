@@ -1,0 +1,59 @@
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+	background-color: #222;
+	color: #fff;
+	margin: 40px;
+}
+
+h1 {
+	color: #fff;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="number"] {
+	width: 50px;
+	padding: 5px;
+	font-size: 16px;
+	background-color: #333;
+	color: #fff;
+	border: 1px solid #555;
+}
+
+button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 7px 15px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+#resultado {
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #555;
+	background-color: #333;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#resultado h2 {
+	color: #007bff;
+	margin-bottom: 10px;
+}
+
+#resultado p {
+	margin: 5px 0;
+}

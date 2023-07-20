@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="login-container">
+		<h2>¡Bienvenid@! 🙂</h2>
+		<p>Ingresá tus credenciales a continuación.</p>
+		<form id="login-form" onsubmit="login(); return false;">
+			<input type="email" class="login-input" id="email" placeholder="Sincere@april.biz" required>
+			<input type="password" class="login-input" id="password" placeholder="Gwenborough" required>
+			<button type="submit" class="login-button">Iniciar sesión</button>
+		</form>
+		<p id="error-message" style="color: red;"></p>
+	</div>
+
+	<script src="js/code.js"></script>
+</body>
+
+</html>
