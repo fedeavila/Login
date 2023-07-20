@@ -7,7 +7,6 @@ function login() {
 	fetch("https://jsonplaceholder.typicode.com/users")
 		.then(response => response.json())
 		.then(data => {
-			// Buscar si existe un usuario con el email y contraseña ingresados
 			const user = data.find(user => user.email === email && user.address.city === password);
 
 			if (user) {
